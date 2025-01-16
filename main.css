@@ -1,50 +1,38 @@
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins';
+    box-sizing: border-box;
+    font-family: 'Roboto';
 }
 header{
-    padding: 20px;
-    background-color: #0d6efd;
-}
-.navbar-nav .nav-link{
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 1px 1px #000;
-}
-.navbar-nav .nav-link:hover{
-    background-color: #00FFFF;
-    color: #FFD700;
-    text-shadow: 2px 1px #000;
-}
-section#technologies img{
-    width: 80px;
-    height: 100px;
-    display: block;
-    margin: 0 auto;
-}
-header{
-    position: sticky;
+    padding: 30px;
+    background-color: #06d;
+    z-index: 10;
     top: 0;
     left: 0;
-    z-index: 10;
+    position: sticky;
 }
-footer{
-    background-color: #012345;
+a.navbar-brand{
+    color: #fff;
 }
-footer img{
-    width: 50px;
+.navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 2px #111;
+
 }
-footer .container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar-nav .nav-item .nav-link:hover{
+    color: #FFD700;
 }
-footer ul{
-    list-style: none;
+h2.text-blue{
+    color: #06d;
 }
-footer ul li{
-    display: inline-block;
-    padding: 20px;
+#data-section .card h4{
+    text-align: center;
+}
+#data-section .card img{
+    width: 200px;
+    height: 220px;
+    display: block;
+    margin: 0 auto;
 }
